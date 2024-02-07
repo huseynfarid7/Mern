@@ -1,4 +1,4 @@
-/* Reset css started */
+
 * {
     li {
         list-style: none;
@@ -34,8 +34,6 @@ body {
 
 }
 
-/* reset css end */
-/* about css started  */
 #about {
     display: flex;
     align-items: start;
@@ -44,9 +42,6 @@ body {
     padding: 32px 0 0;
 }
 
-/* about css end  */
-
-/* firstflex css started */
 #firstflex {
     display: flex;
     flex-direction: column;
@@ -54,7 +49,6 @@ body {
     justify-content: center;
     width: 40%;
     height: auto;
-    /* background-color: #414243; */
     background-color: #353233;
 
     margin-right: 32px;
@@ -66,7 +60,6 @@ body {
     }
 }
 
-/* infofirstflex css started */
 #infofirstflex {
     display: flex;
     flex-direction: column;
@@ -91,7 +84,6 @@ body {
     }
 }
 
-/* search-box started */
 .search-box{
     display: flex;
     align-items: center;
@@ -118,10 +110,7 @@ input{
 
 
 }
-/* search-box end */
-/* infofirstflex css end */
 
-/* icfirstflex css started */
 #icfirstflex {
     display: flex;
     align-items: center;
@@ -131,9 +120,7 @@ input{
     gap: 7px;
 }
 
-/* icfirstflex css end */
 
-/* icfirstflex css started */
 #icfirstflex i {
     display: inline-block;
     width: 36px;
@@ -144,9 +131,6 @@ input{
     line-height: 40px;
 }
 
-/* icfirstflex css end */
-
-/* partPage started */
 #firstflexPages {
     width: 100%;
     border-top: 1px solid #333333;
@@ -176,9 +160,6 @@ input{
     border-left: 1px solid #333333;
 }
 
-/* partPage end */
-
-/* linkfirstflex started */
 #linkfirstflex {
     display: flex;
     flex-direction: column;
@@ -236,9 +217,6 @@ input{
     color: #ffffff;
 }
 
-/* linkfirstflex end */
-
-/* infoseh started */
 #infoseh {
     background-color: #414243;
     margin-top: 32px;
@@ -261,9 +239,6 @@ input{
     }
 }
 
-/* infoseh end */
-/* firstflex css end */
-/* urlcategor started */
 #urlcategor{
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -279,8 +254,7 @@ input{
         font-size: 14px;
     }
 }
-/* urlcategor end */
-/* core started */
+
 .core{
     display: flex;
     flex-direction: column;
@@ -305,8 +279,7 @@ input{
         background-color: rgb(65, 66, 67) !important;
     }
 }
-/* core end */
-/* comment started */
+
 .koment {
     display: flex;
     flex-direction: column;
@@ -320,7 +293,7 @@ input{
         font-size: 14px;
     }
 }
-/* comment end */
+
 .sonurl{
     display: flex;
     flex-direction: column;
@@ -334,7 +307,7 @@ input{
 
 
 }
-/* first2flex started */
+
 .infofirst2flex {
     width: 100%;
     background-color: #ffffffff;
@@ -368,4 +341,4 @@ input{
     }
 }
 
-/* first2flex end */
+
