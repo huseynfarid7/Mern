@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 70%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+            border-collapse: collapse;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <table border="3px">
+
+        <tr>
+            <th colspan="8" border="3px" style="height:
+             100px;">Dərs Cədvəli</th>
+        </tr>
+
+        <tr>
+            <th>Saatlar</th>
+            <th>Bazar Ertəsi</th>
+            <th>Çərşənbə Axşamı</th>
+            <th>Çərşənbə</th>
+            <th>Cümə Axşamı</th>
+            <th>Cümə</th>
+            <th>Şənbə</th>
+            <th>Bazar</th>
+        </tr>
+
+        <tr>
+            <th>08:00</th>
+            <th rowspan="3">Riyaziyyet</th>
+            <th>Fizika</th>
+            <th>Kimya</th>
+            <th rowspan="2">Az dili</th>
+            <th>Ədəbiyyat</th>
+            <th rowspan="6" colspan="2">Həftə Sonu</th>
+        </tr>
+
+        <tr>
+            <th>10:00</th>
+            <th>Riyaziyyet</th>
+            <th rowspan="2">Ədəbiyyat</th>
+            <th>Az dili</th>
+        </tr>
+
+        <tr>
+            <th>10:00</th>
+            <th>Musiqi</th>
+            <th colspan="2">İnformatika</th>
+        </tr>
+
+        <tr style="height: 110px;">
+            <th>14:00</th>
+            <th colspan="5">Nahar Fasiləsi</th>
+        </tr>
+
+        <tr>
+            <th>16:00</th>
+            <th rowspan="2" colspan="2">Proqramlaşdırma</th>
+            <th>Biologiya</th>
+            <th>Coğrafiya</th>
+            <th rowspan="2">Astronomiya</th>
+        </tr>
+
+        <tr>
+            <th>18:00</th>
+            <th>Rəsm</th>
+            <th>Texnologiya </th>
+        </tr>
+    </table>
+
+</body>
+</html>
