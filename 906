@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first and last comp</title>
+    <script>
+        function compOfNumbers() {
+            var number = Math.abs(parseInt(prompt("Enter a number: ")))
+            console.log(number)
+            if (number > 999 || number < 100) {
+                console.log("Please enter a valid three-digit number.");
+            } else {
+               var digit1 = Math.floor(number/100);
+               var digit2 = Math.floor((number % 100) / 10);
+               var digit3 = Math.floor(number % 10);
+               var result = digit1 * digit2 * digit3
+               document.getElementById('result').innerHTML = `<p>${result}</p>`
+            }
+    }
+    </script>
+</head>
+<body>
+    <h2>comp numbers</h2> <br>
+    <button onclick="compOfNumbers()">tap here</button>
+    <div id="result"></div>
+</body>
+</html>
