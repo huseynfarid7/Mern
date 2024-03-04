@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function squareSum(arr){
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i]**2;
+            }
+            return sum;
+        }
+        const arr = [1,2,2];
+        console.log(squareSum(arr));
+    </script>
+</head>
+<body>
+    <h2>View the console</h2>
+</body>
+</html>
