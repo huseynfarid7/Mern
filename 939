@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Digits Squared</title>
+    <script>
+        function sumDigitsSquared() {
+            var number = parseInt(prompt("Enter a number:"));
+            var numberString = number.toString();
+            var sum = 0;
+
+            for (var i = 0; i < numberString.length; i++) {
+                sum += parseInt(numberString[i]);
+            }
+            var result = sum * sum;
+            alert("The sum of digits squared is: " + result);
+        }
+    </script>
+</head>
+<body>
+    <h2>Sum of Digits Squared</h2>
+    <button onclick="sumDigitsSquared()">Calculate</button>
+</body>
+</html>
