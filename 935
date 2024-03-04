@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digits of a Number</title>
+    <script>
+        function Digits() {
+            var number = parseInt(prompt("Enter a number:"))
+            
+            var numberString = Math.abs(number).toString();
+
+            for (var i = 0; i < numberString.length; i++) {
+                document.getElementById('result').innerHTML += numberString[i] + "<br>";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Display Digits</h2>
+    <button onclick="Digits()">tap here</button><br><br>
+    <div id="result"></div>
+</body>
+</html>
