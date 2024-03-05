@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function eachCons(array,n){
+            let result = [];
+            for (let i = 0; i <= array.length - n; i++){
+                let x = array.slice(i,i+n);
+                result.push(x);
+            }
+            return result;
+        }
+        console.log(eachCons([1,2,3,4],2));
+        console.log(eachCons([1,2,3,4],3));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
